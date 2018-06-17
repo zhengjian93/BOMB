@@ -1,0 +1,20 @@
+{
+  "name": "com.zhengjian.app",
+  "version": "1.0.0",
+  "description": "BOMB app",
+  "main": "index.js",
+  "scripts": {
+    "test": "this is app"
+  },
+  "keywords": [
+    "node",
+    "game"
+  ],
+  "author": "jian.zheng",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "log4js": "^2.9.0"
+  }
+}
