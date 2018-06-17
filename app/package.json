@@ -15,6 +15,7 @@
   "dependencies": {
     "compression": "^1.7.2",
     "express": "^4.16.3",
+    "hoek": "^4.2.1",
     "log4js": "^2.9.0"
   }
 }

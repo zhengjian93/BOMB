@@ -13,6 +13,7 @@
   "author": "jian.zheng",
   "license": "ISC",
   "dependencies": {
+    "hoek": "^4.2.1",
     "log4js": "^2.9.0",
     "restify": "^7.2.1",
     "restify-cors-middleware": "^1.1.1",
