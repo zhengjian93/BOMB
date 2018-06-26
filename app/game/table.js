@@ -1,14 +1,24 @@
+var choose_color = '';//所选背景颜色
 
 function init(){
+
     $('td').click(function(){
         if(this.innerHTML == ''){
             if(this.style.background == ''){
-                $(this).css('background','	#9D9D9D');
+                $(this).css('background', choose_color);
             }else {
                 $(this).css('background','');
             }
         }
     });
+
+    $('#head').click(function(){
+        choose_color = 'red';
+    });  
+
+    $('#body').click(function(){
+        choose_color = '#9D9D9D';
+    });  
 
     var width = $(document.body).width() * 0.4;
     $('#left_area').width(width);
