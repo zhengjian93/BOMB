@@ -16,4 +16,8 @@ function init(){
     $('#right_area').width(width);
     $('#your').height(width);
     $('#toolbar').width(width * 0.5);
+    $('#head').width(width * 0.1);
+    $('#head').height(width * 0.1);
+    $('#body').width(width * 0.1);
+    $('#body').height(width * 0.1);
 }
