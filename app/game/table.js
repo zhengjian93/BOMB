@@ -9,4 +9,11 @@ function init(){
             }
         }
     });
+
+    var width = $(document.body).width() * 0.4;
+    $('#left_area').width(width);
+    $('#my').height(width);
+    $('#right_area').width(width);
+    $('#your').height(width);
+    $('#toolbar').width(width * 0.5);
 }
